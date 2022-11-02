@@ -1,10 +1,9 @@
 // Flocking
 
 import { Color, Component, Entity, Player, PropsDefinition, Quaternion, Vec3 } from '@early_access_api/v1';
-import { AppComponent } from 'App';
-import { FlockManager } from 'FlockManager';
-import { OnAppStartingEvent } from 'App';
-import { app } from 'IApp';
+import { AppComponent,OnAppStartingEvent } from 'app';
+import { FlockManager } from 'flockmanager';
+import { app } from 'iapp';
 
 const maxSpeed = 2
 const maxForce = 10
