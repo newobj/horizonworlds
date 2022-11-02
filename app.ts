@@ -1,6 +1,6 @@
 import { BuiltInVariableType, CodeBlockEvent, Component, HorizonEvent, PropsDefinition, PropTypes, Vec3 } from "@early_access_api/v1"
-import { ctor } from "Utils";
-import { app, setAppInstance } from "IApp";
+import { ctor } from "utils";
+import { app, setAppInstance } from "iapp";
 
 // Nothing should try to talk to anything else w/ this event
 export const OnAppStartingEvent = new HorizonEvent<{}>('OnAppStartingEvent');
