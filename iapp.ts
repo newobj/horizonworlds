@@ -1,4 +1,4 @@
-import { ctor } from "Utils"
+import { ctor } from "utils"
 
 let instance: IApp
 
